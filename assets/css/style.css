@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content {
+    flex: 1 0 auto;
+    margin-bottom: 50px;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header img {
+    padding: 32px;
+    width: 100px;
+    height: 21px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.poster {
+    background-image: url("../images/hero-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 67%;
+    width: 100%;
+}
+
+.info {
+    padding: 0 32px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 600;
+    letter-spacing: 10.83px;
+    text-transform: uppercase;
+    color: #423A3A;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+span {
+    font-weight: 300;
+    color: #CE9898;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #CE9898;
+    margin-bottom: 32px;
+}
+
+input[type=text] {
+    width: 100%;
+    line-height: 28px;
+    padding: 9px 24px 11px 24px;
+    box-sizing: border-box;
+    border: 1px solid #CE9898;
+    border-radius: 28px;
+    color: #CE9898;
+}
+
+form {
+    width: 100%;
+    max-width: 445px;
+    position: relative;
+}
+
+button {
+    width: 64px;
+    height: 49px;
+    background-image: linear-gradient(#F8BFBF, #EE8B8B);
+    border-radius: 28px;
+    border: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button img {
+    width: 9px;
+    height: 18px;
+    display: block;
+    margin: auto auto;
+}
+
+footer {
+    padding: 20px;
+    color: #CE9898;
+}
