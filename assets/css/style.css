@@ -163,6 +163,11 @@ footer a {
 }
 
 @media only screen and (min-width:1100px) {
+    h1 {
+        font-size: 64px;
+        line-height: 71px;
+        letter-spacing: 17.83px;
+    }
     .poster {
         background-image: unset;
         padding-top: 0;
