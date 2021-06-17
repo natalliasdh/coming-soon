@@ -181,3 +181,13 @@ footer a {
         height: 33px;
     }
 }
+
+button {
+    cursor: pointer;
+}
+
+#warning {
+    color: red;
+    padding-top: 20px;
+    padding-left: 10px;
+}
