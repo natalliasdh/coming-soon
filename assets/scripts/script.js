@@ -17,6 +17,7 @@ submitButton.addEventListener('click', () => {
 
     } else {
         warningDiv.textContent = "";
+        emailInput.value = '';
     }
 
 });
